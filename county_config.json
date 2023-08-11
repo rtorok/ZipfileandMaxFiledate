@@ -1,0 +1,842 @@
+[
+     {
+      "county": "AndersonTX",
+      "countyindexid": 146,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from AndersonTX.dbo.AndersonTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "AndrewsTX",
+      "countyindexid": 230,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from AndrewsTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "AransasTX",
+      "countyindexid": 186,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from AransasTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXAtascosa",
+      "countyindexid": 105,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXAtascosa.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "BanderaTX",
+      "countyindexid": 124,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from BanderaTX.dbo.BanderaTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "BastropTX",
+      "countyindexid": 131,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from BastropTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "BellTX",
+      "countyindexid": 91,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from BellTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "BernalilloNM",
+      "countyindexid": 249,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from BernalilloNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "BexarTX",
+      "countyindexid": 36,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from BexarTX.dbo.BexarTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXBlanco",
+      "countyindexid": 325,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXBlanco.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXBorden",
+      "countyindexid": 324,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXBorden.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "BosqueTX",
+      "countyindexid": 247,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from BosqueTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "BrazoriaTX",
+      "countyindexid": 69,
+      "datashare": "Yes",
+      "sql": "Select format(Max(RecordingDate), 'd', 'us') as MaxFiledate from BrazoriaTX.dbo.BrazoriaTXNewFlat WHERE YEAR(RecordingDate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXBrazos",
+      "countyindexid": 125,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXBrazos.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "BurlesonTX",
+      "countyindexid": 194,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from BurlesonTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXBurnet",
+      "countyindexid": 211,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXBurnet.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "CaldwellTX",
+      "countyindexid": 188,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from CaldwellTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+      {
+      "county": "CameronTX",
+      "countyindexid": 150,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from CameronTX.dbo.CameronTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXCarson",
+      "countyindexid": 231,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXCarson.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXCastro",
+      "countyindexid": 248,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXCastro.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "CatronNM",
+      "countyindexid": 232,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from CatronNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXChambers",
+      "countyindexid": 154,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXChambers.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "CherokeeTX",
+      "countyindexid": 155,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from CherokeeTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "CibolaNM",
+      "countyindexid": 229,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from CibolaNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "ClayTX",
+      "countyindexid": 246,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from ClayTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXCochran",
+      "countyindexid": 223,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXCochran.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXCollin",
+      "countyindexid": 20,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXCollin.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "ColoradoTX",
+      "countyindexid": 189,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from ColoradoTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "ComalTX",
+      "countyindexid": 114,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from ComalTX.dbo.ComalTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXConcho",
+      "countyindexid": 297,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXConcho.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXCooke",
+      "countyindexid": 179,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXCooke.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "CoryellTX",
+      "countyindexid": 219,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from CoryellTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "DallasTX",
+      "countyindexid": 11,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from Dallastx.dbo.DallasTXFlatDocument WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "DawsonTX",
+      "countyindexid": 208,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from DawsonTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXDeafSmith",
+      "countyindexid": 245,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXDeafSmith.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "DentonTX",
+      "countyindexid": 14,
+      "datashare": "",
+      "sql": "Select format(Max(DateRecorded), 'd', 'us') as MaxFiledate from DentonTX.dbo.DentonTXFlatBack WHERE YEAR(DateRecorded) = YEAR(GETDATE())"
+    },
+    {
+      "county": "DentonTXPlats",
+      "countyindexid": 53,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from DentonTXPlats.dbo.FLAT WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "DimmitTX",
+      "countyindexid": 173,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from DimmitTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "DonaAnaNM",
+      "countyindexid": 250,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from DonaAnaNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "EctorTX",
+      "countyindexid": 151,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from EctorTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "EddyNM",
+      "countyindexid": 290,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from EddyNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "EllisTXTitle",
+      "countyindexid": 166,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from EllisTXTitle.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "ElPaso",
+      "countyindexid": 78,
+      "datashare": "",
+      "sql": "Select format(Max(InstrumentDate), 'd', 'us') as MaxFiledate from ElPasoTX.dbo.ElPasoTXFlat WHERE YEAR(InstrumentDate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "FayetteTX",
+      "countyindexid": 147,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from FayetteTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "FisherTX",
+      "countyindexid": 218,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from FisherTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "FortBendTX",
+      "countyindexid": 13,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from FortbendTX.dbo.FortBendTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "FrioTX",
+      "countyindexid": 207,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from FrioTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GainesTX",
+      "countyindexid": 288,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from GainesTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GalvestonTX",
+      "countyindexid": 25,
+      "datashare": "Yes",
+      "sql": "Select format(Max(DateReceived), 'd', 'us') as MaxFiledate from GalvestonTX.dbo.GalvestonTXIndex WHERE YEAR(DateReceived) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GlasscockTX",
+      "countyindexid": 243,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from GlasscockTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GoliadTX",
+      "countyindexid": 181,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from GoliadTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GonzalesTX",
+      "countyindexid": 153,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from GonzalesTX.dbo.flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GraysonTX",
+      "countyindexid": 175,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from GraysonTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GrayTX",
+      "countyindexid": 252,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from GrayTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXGregg",
+      "countyindexid": 210,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXGregg.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GrimesTX",
+      "countyindexid": 178,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from GrimesTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GuadalupeNM",
+      "countyindexid": 239,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from GuadalupeNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "GuadalupeTX",
+      "countyindexid": 92,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from GuadalupeTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXHansford",
+      "countyindexid": 255,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXHansford.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXHardeman",
+      "countyindexid": 303,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXHardeman.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXHardin",
+      "countyindexid": 327,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXHardin.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "HarrisonTX",
+      "countyindexid": 129,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from HarrisonTX.dbo.HarrisonTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXHarris",
+      "countyindexid": 1,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXHarris.doc.document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "HaysTXJoin",
+      "countyindexid": 108,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from HaysTXJoin.dbo.HaysTXFlatall WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXHemphill",
+      "countyindexid": 216,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXHemphill.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "HendersonTX",
+      "countyindexid": 176,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from HendersonTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "HidalgoTX",
+      "countyindexid": 177,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from HidalgoTX..Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "HoodTX",
+      "countyindexid": 143,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from HoodTX.dbo.HoodTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "HowardTX",
+      "countyindexid": 204,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from HowardTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXHunt",
+      "countyindexid": 134,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXHunt.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXHutchinson",
+      "countyindexid": 256,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXHutchinson.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "JeffersonTX",
+      "countyindexid": 27,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from JeffersonTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "JohnsonTXCounty",
+      "countyindexid": 118,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from JohnsonTXCounty.dbo.JohnsonTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "KarnesTX",
+      "countyindexid": 148,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from KarnesTX.dbo.KarnesTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "KaufmanTX",
+      "countyindexid": 68,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from KaufmanTX.dbo.KaufmanTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "KendallTXTitle",
+      "countyindexid": 141,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from KendallTXTitle.dbo.flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "LaSalleTX",
+      "countyindexid": 152,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from LaSalleTX.dbo.LaSalleTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "NMLea",
+      "countyindexid": 287,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from NMLea.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXLeon",
+      "countyindexid": 82,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXLeon.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXLiberty",
+      "countyindexid": 39,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXLiberty.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXLlano",
+      "countyindexid": 301,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXLlano.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "LovingTX",
+      "countyindexid": 221,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from LovingTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "LubbockTX",
+      "countyindexid": 130,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from LubbockTX.dbo.LubbockTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "LynnTX",
+      "countyindexid": 271,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from LynnTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "MadisonTX",
+      "countyindexid": 203,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from MadisonTX.dbo.flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "MarionTX",
+      "countyindexid": 193,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from MarionTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "MartinTX",
+      "countyindexid": 294,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from MartinTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXMatagorda",
+      "countyindexid": 133,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXMatagorda.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXMcLennan",
+      "countyindexid": 38,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXMcLennan.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "McMullenTX",
+      "countyindexid": 180,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from McMullenTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "MedinaTX",
+      "countyindexid": 309,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from MedinaTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "MidlandTX",
+      "countyindexid": 149,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from MidlandTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "MontgomeryTX",
+      "countyindexid": 10,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from MontgomeryTX.dbo.MontgomeryTXFlatLegal WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "MoraTX",
+      "countyindexid": 238,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from MoraNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXNacogdoches",
+      "countyindexid": 139,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXNacogdoches.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXNavarro",
+      "countyindexid": 322,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXNavarro.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "NuecesTX",
+      "countyindexid": 90,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from NuecesTX.dbo.NuecesTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "OldhamTX",
+      "countyindexid": 192,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from OldhamTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "PaloPintoTX",
+      "countyindexid": 209,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from PaloPintoTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "PanolaTX",
+      "countyindexid": 182,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from PanolaTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "ParkerTXCounty",
+      "countyindexid": 97,
+      "datashare": "",
+      "sql": "Select format(Max(Fileddate), 'd', 'us') as MaxFiledate from ParkerTXCounty.dbo.FLAT WHERE YEAR(Fileddate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "ParmerTX",
+      "countyindexid": 260,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from ParmerTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "PecosTX",
+      "countyindexid": 270,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from PecosTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "PotterTX",
+      "countyindexid": 89,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from PotterTX.dbo.PotterTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "RandallTX",
+      "countyindexid": 88,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from RandallTX.dbo.RandallTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "RealTX",
+      "countyindexid": 191,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from RealTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "ReevesTX",
+      "countyindexid": 266,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from ReevesTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "RioArribaNM",
+      "countyindexid": 265,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from RioArribaNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "RobertsTX",
+      "countyindexid": 261,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from RobertsTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "RockwallTX",
+      "countyindexid": 83,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from RockwallTX.dbo.RockwallTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "SandovalNM",
+      "countyindexid": 253,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from SandovalNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "SanMiguelNM",
+      "countyindexid": 237,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from SanMiguelNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "SanPatricioTX",
+      "countyindexid": 127,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from SanPatricioTX..Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "SantaFeNM",
+      "countyindexid": 54,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from SantaFeNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "SierraNM",
+      "countyindexid": 264,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from SierraNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "SmithTXCounty",
+      "countyindexid": 107,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from SmithTXCounty.dbo.SmithTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "SocorroNM",
+      "countyindexid": 240,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from SocorroNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXSterling",
+      "countyindexid": 323,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXSterling.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "SwisherTX",
+      "countyindexid": 257,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from SwisherTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TarrantTX",
+      "countyindexid": 15,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TarrantTX.dbo.TarrantTXFlatDOCUMENT WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXTaylor",
+      "countyindexid": 280,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXTaylor.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "ThrockmortonTX",
+      "countyindexid": 235,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from ThrockmortonTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXTomGreen",
+      "countyindexid": 217,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXTomGreen.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TravisTX",
+      "countyindexid": 31,
+      "datashare": "",
+      "sql": "Select format(Max(DateReceived), 'd', 'us') as MaxFiledate from TravisTX.dbo.TravisTXFlat WHERE YEAR(DateReceived) = YEAR(GETDATE())"
+    },
+    {
+      "county": "UptonTX",
+      "countyindexid": 306,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from UptonTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "ValenciaNM",
+      "countyindexid": 254,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from ValenciaNM.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "VanZandtTX",
+      "countyindexid": 296,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from VanzandtTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "VictoriaTX",
+      "countyindexid": 33,
+      "datashare": "",
+      "sql": "Select format(Max(DateReceived), 'd', 'us') as MaxFiledate from VictoriaTX.dbo.VictoriaTXFlat WHERE YEAR(DateReceived) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXWalker",
+      "countyindexid": 213,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXWalker.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "WallerTX",
+      "countyindexid": 140,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from WallerTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "WardTX",
+      "countyindexid": 220,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from WardTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "WashingtonTX",
+      "countyindexid": 187,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from WashingtonTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "WebbTX",
+      "countyindexid": 128,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from WebbTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXWheeler",
+      "countyindexid": 251,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXWheeler.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "WilbargerTX",
+      "countyindexid": 262,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from WilbargerTX.dbo.Prod_Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "WilliamsonTX",
+      "countyindexid": 35,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from WilliamsonTX.dbo.WilliamsonTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXWilson",
+      "countyindexid": 190,
+      "datashare": "Yes",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXWilson.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "WinklerTX",
+      "countyindexid": 206,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from WinklerTX.dbo.Flat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "WiseTX",
+      "countyindexid": 94,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from WiseTX.dbo.WiseTXFlat WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    },
+    {
+      "county": "TXWood",
+      "countyindexid": 132,
+      "datashare": "",
+      "sql": "Select format(Max(Filedate), 'd', 'us') as MaxFiledate from TXWood.doc.Document WHERE YEAR(Filedate) = YEAR(GETDATE())"
+    }
+]
